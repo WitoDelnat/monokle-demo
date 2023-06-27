@@ -29,9 +29,9 @@ metadata:
     monokle.io/demo: vanilla-blue-cms
 spec:
   selector:
-    app: blue-INCORRECT_REFERENCE
+    app: blue-cms
   ports:
     - name: http-web
       protocol: TCP
-      port: "this-should-be-a-number"
+      port: 8080
       targetPort: 8080
