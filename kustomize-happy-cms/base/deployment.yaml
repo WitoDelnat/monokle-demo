@@ -20,3 +20,5 @@ spec:
           ports:
             - name: http-web
               containerPort: 8080
+          securityContext:
+            runAsNonRoot: true
