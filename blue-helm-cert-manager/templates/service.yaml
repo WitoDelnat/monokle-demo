@@ -21,7 +21,7 @@ spec:
   type: ClusterIP
   ports:
   - protocol: TCP
-    port: 9402
+    port: 9405
     name: tcp-prometheus-servicemonitor
     targetPort: {{ .Values.prometheus.servicemonitor.targetPort }}
   selector:
